@@ -1,0 +1,23 @@
+
+.example-icon {
+  padding: 0 10px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.main_page{
+  margin: auto auto;
+  width: auto;
+  height: 100%;
+  background-color: #80e27e;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  
+}

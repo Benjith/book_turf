@@ -1,0 +1,28 @@
+<mat-toolbar color="primary">
+
+    <span>Book My Turf</span>
+    <span class="example-spacer"></span>
+    <!-- <mat-icon class="example-icon">favorite</mat-icon> -->
+ 
+    <button  mat-icon-button [matMenuTriggerFor]="menu"><mat-icon class="example-icon">settings</mat-icon></button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+</mat-toolbar>
+
+
+
+
+<mat-toolbar class="btm" style="background-color: white">
+
+  <!-- <span>Bottom </span> -->
+  <!-- <span class="example-spacer"></span> -->
+   <button mat-button class=" example-spacer" color="primary"><mat-icon >home</mat-icon></button>
+   <button mat-button class=" example-spacer" color="primary"><mat-icon  >favorite</mat-icon></button>
+   <button mat-button class=" example-spacer" color="primary"><mat-icon  >favorite</mat-icon></button>
+   <button mat-button class=" example-spacer" color="primary"><mat-icon   >favorite</mat-icon></button>
+
+
+  
+</mat-toolbar>
